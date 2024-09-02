@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background: #0f0f10;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+/* nav section part */
+nav {
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+body {
+  margin: 0 15vw;
+}
+
+nav ul li {
+  margin-right: 40px;
+}
+nav ul li a {
+  font-size: 16px;
+  font-weight: 500px;
+}
+nav button {
+  font-size: 16px;
+  padding: 10px 40px;
+  background: #1e1e21;
+  border-radius: 6px;
+}
+nav img {
+  height: 26px;
+  width: 26px;
+}
+/* main section part - 2 */
+main {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  margin-top: 30px;
+}
+.mainImg {
+  width: 230px;
+  position: relative;
+  top: -250px;
+  left: 70px;
+}
+#main-one {
+  margin-left: 350px;
+}
+.onEar {
+  width: 320px;
+  margin-left: 50px;
+}
+#main-one h1 {
+  font-weight: 600;
+  font-size: 46px;
+  margin-bottom: 25px;
+}
+#main-one h4 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+#main-one p {
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 25px;
+  width: 50%;
+  line-height: 25px;
+}
+#bag-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #1e1e21;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 10px 25px;
+}
+#bag-icon img {
+  width: 15px;
+  background-color: transparent;
+}
+#bag-icon p {
+  background-color: transparent;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+#bag-icon span {
+  background-color: transparent;
+}
+/* main section part - 2 */
+.media-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 50px;
+  position: relative;
+  top: -50px;
+  margin-bottom: 40px;
+}
+.media-icon {
+  scale: 0.8;
+}
+
+/* main section part - 3 */
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spacslogo {
+  scale: 0.8;
+  margin-bottom: 20px;
+}
+.product-list {
+  display: flex;
+}
+.product-list img {
+  scale: 0.8;
+}
+.details-list-items div {
+  margin-bottom: 20px;
+}
+.details-list-items div img {
+  scale: 0.8;
+}
+.details-list-items div p {
+  font-size: 12px;
+}
+.details-list-items div p:last-child {
+  color: #bdc0c2;
+  font-size: 10px;
+  margin-top: 5px;
+  width: 70%;
+}
+.details-list-items div:first-child,
+.details-list-items div:last-child {
+  margin-left: 30px;
+}
+/* main section part - 4 */
+#case {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.case-logo {
+  scale: 0.8;
+  margin-bottom: 20px;
+}
+.case-item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.case-item img {
+  scale: 0.8;
+}
+.case-item div {
+  width: 20%;
+}
+.case-item div p:last-child img {
+  scale: 0.8;
+  background-color: transparent;
+}
+.case-item div p:last-child {
+  background: #1e1e21;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.case-item div p:first-child {
+  line-height: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+/* main section part - 5  */
+.buy-product {
+  background-color: #181a1b;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 70px;
+  padding: 40px 0;
+}
+.buy-product div,
+.buy-product p,
+.buy-product h3,
+.buy-product img {
+  background-color: transparent;
+}
+.buy-product div {
+  width: 25%;
+}
+.buy-product div h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.buy-product div p {
+  color: #bdc0c2;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.buy-product div div {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background: #000000;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.buy-product div div img {
+  scale: 0.8;
+  margin-right: 10px;
+}
+.buy-product div div p {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #ffffff;
+}
+/*  main section part - 6 */
+.prostyle {
+  display: flex;
+  flex-direction: column;
+  margin: 0 150px;
+}
+.product-logo {
+  display: flex;
+  flex-direction: column;
+}
+.product-logo {
+  scale: 0.4;
+}
+.product-logo-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-left: 50px;
+}
+.product-card {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background: #181a1b;
+  border-radius: 8px;
+}
+.product-img {
+  width: 75px;
+  height: 100px;
+  position: absolute;
+  z-index: 100;
+  top: -40px;
+  left: 28px;
+}
+.product-img,
+.product-card p,
+.product-card span,
+.product-card img,
+.product-card div {
+  background-color: transparent;
+}
+.product-info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.product-info p {
+  font-size: 12px;
+}
+.product-info p span {
+  color: #bdc0c2;
+}
+.product-info div {
+  background: #0a0a0b;
+  border-radius: 8px;
+  padding: 2px 6px;
+}
+.product-info div img {
+  width: 13px;
+  height: 13px;
+}
+ /* footer part css define  */
+footer {
+  margin: 100px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+.footer-logo {
+  scale: 0.8;
+}
+ul li a {
+  font-size: 12px;
+  color: #bdc0c2;
+}
+ul li:first-child a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+ul li:first-child {
+  margin-bottom: 10px;
+}
+.footer-email {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-email div:first-child {
+  background: #181a1b;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+}
+.footer-email div:first-child input {
+  border: none;
+  background-color: transparent;
+}
+.sub-button {
+  background-color: #0a0a0b;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sub-button img {
+  scale: 0.8;
+}
+.sub-button p {
+  font-size: 12px;
+}
+.footer-email div:last-child img {
+  margin-left: 10px;
+  scale: 0.8;
+}
+.arrow {
+  margin-right: -100px;
+  scale: 0.8;
+}
